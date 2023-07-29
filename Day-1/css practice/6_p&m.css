@@ -1,0 +1,13 @@
+h1{
+    border: solid;padding-left: 100px;
+}
+
+
+p{
+    border: solid orange;border-radius: 300px ;font-size: larger;text-align: center;
+
+}
+
+div{
+    border: solid; margin: 200px;text-align: center;
+}

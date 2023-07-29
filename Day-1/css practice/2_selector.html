@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* attributr selectors */
+        input[type= "text" ]{color: rgb(15, 25, 226);}
+        input[type= "password" ]{color: red;}
+
+        /* body selector */
+        body{text-align: center;background-color: rgb(229, 240, 229);} 
+
+        /* element selector */
+        h3{color: orange;} 
+
+        /* universal selector */
+        /* *{margin: 0;
+        padding: 0;} */
+
+
+        /* id selector */
+        .class{color: rgb(71, 128, 171);}
+
+
+        /* class selector */
+        #id{color: rgb(134, 107, 203);}
+
+
+        /* group selector
+        h1,h2,h3{color: aqua;} */
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1>Admissoion</h1>
+    <form action="">
+        <input type="text" placeholder="user id">
+        <input type="password" placeholder="password">
+        <br>
+        <input type="submit" name="submit" value="login" >
+
+        <h3>class</h3>
+        <input type="radio" value="class" name="XI">XI
+        <br>
+        <input type="radio" value="class" name="XII">XII
+        <br>
+        <input type="radio" value="class" name="XIII">XIII
+
+        <h3><b><i><u>subject</u></i></b></h3>
+
+        <label for="">
+            <input type="checkbox">math
+            <input type="checkbox">bio
+        </label>
+
+        <br>
+        city:-
+
+        <select name="city">
+            <option value="mumbai">mumbai</option>
+            <option value="delhi">delhi</option>
+            <option value="patna">patna</option>
+        </select>
+
+    </form>
+    <br>
+    <hr>
+
+    <textarea name="feedback" id="" cols="30" rows="10" placeholder="feedback"> </textarea>
+    <br>
+    <input type="submit" value="submit">
+
+    <br>
+    <br>
+    <hr>
+
+    <div class="class"><h2> THE END </h2></div>
+
+    <br>
+
+    <div id="id"><h1>BYE BYE</h1></div>
+</body>
+</html>

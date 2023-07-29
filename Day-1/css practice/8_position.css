@@ -1,0 +1,23 @@
+.abc {
+    position: relative;
+    top: 300px;
+    left: 50px;
+}
+
+.a{
+    position: relative;
+    top: 10;
+    left: 35;
+}
+
+.b{
+    position: relative;
+    bottom: 40;
+}
+
+img{
+    height: 300;
+    width: 700;
+    position: relative;
+    top: 300;
+}

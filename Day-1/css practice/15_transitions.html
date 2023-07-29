@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container:hover {
+        background-color: rgb(96, 154, 229);
+    }
+
+    .box {
+        display: inline-block;
+    }
+
+    img:hover {
+        width: 400px;
+        height: 400px;
+    }
+
+    img {
+        width: 800px;
+        transition-duration: 10s ;
+        transition-timing-function: ease-in;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <img id="im"
+            src="https://png.pngtree.com/thumb_back/fw800/background/20191120/pngtree-sunset-nature-landscape-with-big-tree-image_322506.jpg"
+            alt="">
+    </div>
+
+    <button id="btn">toggle</button>
+</body>
+
+<script>
+    btn.addEventlistener("click", () => {
+        im.style.width = "200px";
+    })
+</script>
+
+</html>
